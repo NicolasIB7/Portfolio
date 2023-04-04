@@ -1,0 +1,40 @@
+.nav{
+    display: flex;
+    flex-direction: row;
+
+    background-color: #b799bf57;
+    height: 120px;
+    
+}
+
+
+.links{
+    display: flex;
+    justify-content:flex-end;
+    margin: auto;
+    margin-top: 45px;
+    margin-right: 40px;
+    padding-right: 50px;
+    
+}
+
+.link{
+    padding: 20px;
+    text-decoration: none;
+    font-family:'Times New Roman', Times, serif;
+    color: aliceblue;
+}
+
+.avatar{
+    width: 56px;
+    height: 56px;
+}
+
+
+.link:hover{
+    color: #b6b6b6fb;
+}
+
+.link:active{
+    color: #b6b6b6fb;
+}
