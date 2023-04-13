@@ -13,10 +13,73 @@
 .container2{
     width: 50%;
     margin-left: 1%;
-    margin-top: -10%;
+    margin-top: 13%;
+    opacity: 0.8;
+    scale: 1.2;
+    /* transition: all 0.5s ease; */
+
+    animation-name: animacion-imagen;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
 }
+
+/* .container2:hover{
+    filter: none;
+    transform: scale(1.05);
+} */
 
 .bloque{
     display: flex;
     flex-direction: row;
+}
+
+@keyframes animacion-imagen {
+    0% { opacity: 0.2; }
+    20% { opacity: 0.3; }
+    50% { opacity: 0.5; }
+    100% { opacity: 1; }
+  }
+
+
+
+
+  @media only screen and (max-width:851px) {
+
+    .bloque{
+        display: flex;
+        flex-direction: column;
+        scale: 0.7;
+    }
+
+    .container{
+        width: 100%;
+        display: flex;
+    }
+
+    .container2{
+        margin: auto;
+    }
+
+
+}
+@media only screen and (max-width:500px) {
+
+    .bloque{
+        display: flex;
+        flex-direction: column;
+        scale: 0.5;
+        align-items: flex-start;
+    }
+
+    .container{
+        width: 100%;
+        display: flex;
+    }
+
+    .container2{
+        margin: auto;
+        margin-left: 15px;
+    }
+
 }

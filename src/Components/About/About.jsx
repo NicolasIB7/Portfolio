@@ -7,7 +7,7 @@ import { styled } from '@mui/material/styles';
 import {Paper} from '@mui/material';
 import {Stack} from '@mui/material';
 import {Divider} from '@mui/material';
-import foto from "../about.jpg"
+import foto from "../wall.jpg"
 
 const About = () => {
 
@@ -24,7 +24,8 @@ const About = () => {
   return (
     <div className={style.bloque}>
       <div className={style.container2}>
-              <img src={foto} alt="about" style={{scale: "0.4"}} />
+              <img src={foto} alt="about" style={{borderRadius:"5%"}} className={style.fondo} />
+              
             </div>
       <div className={style.container}>
             <Typography marked="center" align="center" variant="h2" component="h2" sx={{color:"#EAE7EC", textShadow:"6px 6px 8px #666"}}>

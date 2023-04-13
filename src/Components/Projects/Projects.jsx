@@ -5,6 +5,7 @@ import ButtonBase from '@mui/material/ButtonBase';
 import Container from '@mui/material/Container';
 import Typography from '../Typography';
 import { redirect } from "react-router-dom";
+import style from "./Project.module.css";
 
 
 
@@ -88,6 +89,12 @@ const images = [
     width: '50%',
     redirect: "https://pi-foods-steel.vercel.app/"
   },
+  {
+    url: 'https://i.postimg.cc/0yxsKDNd/summary-square.jpg',
+    title: 'Simil starbucks',
+    width: '50%',
+    redirect: "https://simil-starbucks.vercel.app/"
+  },
   
   
 ];
@@ -95,7 +102,7 @@ const images = [
 export default function Projects() {
   return (
     <Container component="section" sx={{ mt: 8, mb: 4 }}>
-      <Typography variant="h2" marked="center" align="center" component="h2" sx={{color:"#EAE7EC", textShadow:"6px 6px 8px #666"}} >
+      <Typography variant="h2" marked="center" align="center" component="h2"  className={style.titulo}>
         Projects
       </Typography>
       <Box sx={{ mt: 8, display: 'flex', flexWrap: 'wrap'}}>
