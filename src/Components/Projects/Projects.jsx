@@ -98,6 +98,12 @@ const images = [
     width: "50%",
     redirect: "https://routine-gym.vercel.app/",
   },
+  {
+    url: "https://jobint.hiringroom.com/data/accounts/jobint/microsite/3c234737a37f03fe546aa86e7e116883.png",
+    title: "Simil Jobint page",
+    width: "50%",
+    redirect: "https://job-65sl7fdb7-nicolasib7.vercel.app/",
+  },
 ];
 
 export default function Projects() {
