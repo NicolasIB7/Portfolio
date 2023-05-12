@@ -63,6 +63,18 @@ const images = [
     redirect: "https://pf-grupo-2.vercel.app/",
   },
   {
+    url: "https://i.postimg.cc/jqZSY8jV/Servicio-comidas.png",
+    title: "Food service",
+    width: "50%",
+    redirect: "https://pi-foods-steel.vercel.app/",
+  },
+  {
+    url: "https://fondosmil.com/fondo/4030.jpg",
+    title: "Routine gym",
+    width: "50%",
+    redirect: "https://routine-gym.vercel.app/",
+  },
+  {
     url: "https://i.postimg.cc/SRq21jVW/Movie-seracher.png",
     title: "Movie searcher",
     width: "50%",
@@ -80,24 +92,14 @@ const images = [
     width: "50%",
     redirect: "https://rick-morty-plum.vercel.app/",
   },
-  {
-    url: "https://i.postimg.cc/jqZSY8jV/Servicio-comidas.png",
-    title: "Food service",
-    width: "50%",
-    redirect: "https://pi-foods-steel.vercel.app/",
-  },
+  
   {
     url: "https://i.postimg.cc/0yxsKDNd/summary-square.jpg",
     title: "Simil starbucks",
     width: "50%",
     redirect: "https://simil-starbucks.vercel.app/",
   },
-  {
-    url: "https://fondosmil.com/fondo/4030.jpg",
-    title: "Routine gym",
-    width: "50%",
-    redirect: "https://routine-gym.vercel.app/",
-  },
+  
   {
     url: "https://jobint.hiringroom.com/data/accounts/jobint/microsite/3c234737a37f03fe546aa86e7e116883.png",
     title: "Simil Jobint page",
