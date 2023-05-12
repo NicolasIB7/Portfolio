@@ -1,6 +1,6 @@
 import React from "react";
 import { useState, useEffect } from "react";
-import resume from "./CV_BouvetNicolas.pdf";
+import resume from "./CV-Bouvet Nicolás";
 import { Typography } from "@mui/material";
 import EmailIcon from "@mui/icons-material/Email";
 import InstagramIcon from "@mui/icons-material/Instagram";
@@ -22,7 +22,7 @@ const Contact = () => {
     setDownloading(true);
     const link = document.createElement("a");
     link.href = resume;
-    link.download = "Michael-Yeates-Resume.pdf";
+    link.download = "Nicolás-Bouvet-Resume.pdf";
     link.onload = () => {
       link.remove();
       setDownloading(false);
