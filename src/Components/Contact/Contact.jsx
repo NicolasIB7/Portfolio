@@ -7,9 +7,8 @@ import InstagramIcon from "@mui/icons-material/Instagram";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import { Button } from "@mui/material";
-import { style } from "@mui/system";
 import styles from "./Contact.module.css";
-import { Link } from "react-router-dom";
+
 
 const Contact = () => {
   const [downloading, setDownloading] = useState(false);

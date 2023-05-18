@@ -69,6 +69,12 @@ const images = [
     redirect: "https://pi-foods-steel.vercel.app/",
   },
   {
+    url: "https://i.postimg.cc/J7sQ5RFG/Captura-de-pantalla-2023-05-18-185251.png",
+    title: "Ecommerce Fit-boost",
+    width: "50%",
+    redirect: "https://ecommerce-fit-boost.vercel.app/",
+  },
+  {
     url: "https://fondosmil.com/fondo/4030.jpg",
     title: "Routine gym",
     width: "50%",
