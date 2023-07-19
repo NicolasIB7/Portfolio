@@ -1,6 +1,6 @@
 import React from "react";
 import { useState, useEffect } from "react";
-import resume from "./Cv-BouvetNicolás.pdf";
+import resume from "./Cv-BouvetNicolas.pdf";
 import { Typography } from "@mui/material";
 import EmailIcon from "@mui/icons-material/Email";
 import InstagramIcon from "@mui/icons-material/Instagram";
